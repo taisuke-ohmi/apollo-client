@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-apollo",
+  "version": "1.0.0",
+  "description": "My scrumtrulescent Nuxt.js project",
+  "author": "taisukeohmi",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "gen": "graphql-codegen"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.0-rc15",
+    "apollo-client": "^2.6.4",
+    "graphql": "^14.5.8",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.8.1",
+    "@graphql-codegen/fragment-matcher": "^1.8.1"
+  }
+}

@@ -1,0 +1,9 @@
+schema: ./schema.graphql
+overwrite: true
+generates:
+  ./src/types.d.ts:
+    plugins:
+      - typescript
+  ./fragmentTypes.json:
+    plugins:
+      - fragment-matcher

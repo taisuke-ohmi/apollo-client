@@ -1,0 +1,12 @@
+query Billing {
+  billing(id: "1") {
+    id
+    senderName
+    ... on MFKInvoice {
+      invoiceID
+    }
+    ... on MFKAccountTransferNotification {
+      accountTransferNotificationID
+    }
+  }
+}
