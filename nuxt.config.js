@@ -41,11 +41,9 @@ export default {
     '@nuxtjs/apollo',
   ],
   apollo: {
+    includeNodeModules: true,
     clientConfigs: {
-      default: {
-        // Graphpack側のエンドポイントを指定します。
-        httpEndpoint: 'http://127.0.0.1:8080/query',
-      }
+      default: '@/default.js'
     }
   },
   /*
